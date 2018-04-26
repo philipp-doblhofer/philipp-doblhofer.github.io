@@ -342,6 +342,11 @@
      width: 56px;
      z-index: 10000;
 }
+ @media (max-width: 767px) {
+ 	 .FAB {
+		 right: 10px;
+	}
+ }
  .FAB__action-button, .FAB__mini-action-button {
      cursor: pointer;
      position: absolute;
