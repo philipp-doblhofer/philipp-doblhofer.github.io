@@ -1,4 +1,11 @@
- img {
+h1 {
+	text-align: center;
+	opacity: 0.8;
+	padding-top: 1.4em;
+	padding-top: 0.4em;
+}
+
+img {
      vertical-align: middle;
 }
  .img-responsive {
