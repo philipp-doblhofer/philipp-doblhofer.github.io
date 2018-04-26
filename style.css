@@ -187,11 +187,12 @@
      -moz-transition: all 0.5s;
      transition: all 0.5s;
 }
+
+ @media (min-width: 768px) {s
  .timeline-centered .timeline-entry .timeline-entry-inner:hover .timeline-label, .timeline-centered .timeline-entry .timeline-entry-inner:focus .timeline-label {
      margin-left: 60px;
      padding-left: calc(1.7em + 10px);
 }
- @media (min-width: 768px) {
      .timeline-centered .timeline-entry:nth-child(2n+1) .timeline-entry-inner:hover .timeline-label, .timeline-centered .timeline-entry:nth-child(2n+1) .timeline-entry-inner:focus .timeline-label {
          margin-left: 0;
          margin-right: 60px;
